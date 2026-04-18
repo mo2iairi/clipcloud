@@ -1,0 +1,35 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+
+# Local tooling
+.claude/
+.agents/
+
+# Logs and temp files
+log/
+temp/
+*.log
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Node / frontend
+client/node_modules/
+client/dist/
+client/.vite/
+
+# Rust / Tauri
+client/src-tauri/target/
+server/target/
+
+# Databases and local app state
+*.db
+*.db-shm
+*.db-wal
+
+# Build artifacts
+*.msi
+*.exe

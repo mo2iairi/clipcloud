@@ -1,0 +1,52 @@
+:root {
+  --ink: #172033;
+  --muted: #5f6778;
+  --accent: #0f46d6;
+  font-family: 'Aptos', 'Segoe UI Variable Text', 'Trebuchet MS', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--ink);
+  background: #eff4fa;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100vh;
+}
+
+body {
+  margin: 0;
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-family: 'Bahnschrift', 'Aptos Display', 'Segoe UI Variable Display', sans-serif;
+  letter-spacing: -0.03em;
+}
+
+h1 {
+  font-size: clamp(3rem, 5vw, 4.8rem);
+}
+
+h2 {
+  font-size: 1.55rem;
+}
+
+p {
+  margin: 0;
+}
+
+button,
+input {
+  font: inherit;
+}
